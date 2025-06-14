@@ -46,24 +46,8 @@ care returnează un mesaj specific pentru fiecare situație detectată (ex: „P
 
 Cum funcționează:
 
-Start
-  ↓
-Se verifică dacă parola este null sau goală
-  ↓        ↓
- Da       Nu
- Mesaj   Se verifică lungimea parolei
-           ↓        ↓
-         <8       ≥8
-        Mesaj      Se verifică dacă are literă mare
-                    ↓        ↓
-                 Nu         Da
-                Mesaj       Se verifică dacă are cifră
-                              ↓        ↓
-                            Nu         Da
-                           Mesaj       Se verifică dacă are caracter special
-                                         ↓        ↓
-                                       Nu         Da
-                                      Mesaj       Mesaj: „Parola este validă”
+![image](https://github.com/user-attachments/assets/db7b6453-9606-4610-9dea-415b1377e530)
+
 
 5. Testare unitară
 
@@ -124,6 +108,8 @@ Testele unitare sunt robuste și validează corect toate cerințele funcționale
 Acest proces asigură încredere în calitatea și rezistența codului.
 
 ![Screenshot 2025-06-14 142243](https://github.com/user-attachments/assets/7f7486b5-c859-4ac1-853f-e2af4ac6e869)
+![image](https://github.com/user-attachments/assets/887adbaa-d93a-47ce-b8fe-c6edf674957b)
+
 
 7. Utilizarea AI în dezvoltare
 
@@ -162,6 +148,16 @@ Stryker.NET – https://stryker-mutator.io/
 Microsoft Docs .NET – https://docs.microsoft.com/en-us/dotnet/
 
 OpenAI ChatGPT – https://chat.openai.com/
+
+10. 🤖Capturi din "discuția" cu chatGPT pentru ajutorul asupra proiectului
+![image](https://github.com/user-attachments/assets/56006971-33c4-40df-a915-5d04b58fe7ee)
+![image](https://github.com/user-attachments/assets/49f83535-8209-49e0-a39c-edcfe35b6a3f)
+![image](https://github.com/user-attachments/assets/fae95f22-5c8a-4da8-bbb3-38c03595493b)
+![image](https://github.com/user-attachments/assets/9409078c-9a4d-4ade-8381-8e66d631a38d)
+
+Pentru acest proiect, am folosit ChatGPT ca ajutor în scrierea logicii de validare a parolelor și a testelor unitare. AI-ul m-a ghidat pas cu pas în crearea regulilor, generarea de cazuri de test și în configurarea testării mutanților. A fost util mai ales la clarificarea conceptelor și economisirea timpului.
+
+
 
 
 
