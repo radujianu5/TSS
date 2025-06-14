@@ -83,18 +83,47 @@ Parolă complet validă.
 
 Mai mult, au fost adăugate teste suplimentare pentru omorârea mutanților neechivalenți generați de Stryker.
 
-6. Testare prin mutații (Mutation Testing)
+6. 🧬 Cum funcționează testarea mutanților pentru validatorul de parole
+Testarea mutanților este o tehnică avansată de testare care verifică eficiența testelor unitare. Cu ajutorul unui instrument precum Stryker.NET, codul validatorului de parole este modificat automat prin introducerea unor "defecte simulate" numite mutanți. Scopul este de a observa dacă testele existente detectează aceste modificări.
 
-Pentru a verifica eficiența testelor, a fost folosit tool-ul Stryker.NET care introduce modificări artificiale în cod (mutanți). Testele trebuie să detecteze aceste modificări (să „omoare” mutanții).
+🔍 Ce face Stryker.NET?
+Introduce mutanți, de exemplu:
 
-Rezultate:
-Toți mutanții generați au fost prinși (omorâți).
+schimbă == în !=,
 
-Nu există mutanți supraviețuitori (survivors).
+înlocuiește && cu ||,
 
-Aceasta atestă o suită de teste robustă și o acoperire foarte bună.
+inversează condiții (if (x > 5) → if (x <= 5)),
 
-Raportul Stryker complet este disponibil în folderul StrykerOutput.
+scoate sau modifică return-uri.
+
+Rulând testele existente pe versiunea „infectată” a codului, detectează dacă testele reușesc să omoare mutanții (adică să eșueze când codul e greșit).
+
+Dacă un mutant nu este detectat de teste, el supraviețuiește, indicând un punct slab în acoperirea testelor.
+
+🧪 Cum a fost aplicat în proiect?
+În cazul validatorului de parole, au fost introduși mutanți în logica de verificare a:
+
+parolelor goale,
+
+lungimii minime,
+
+prezenței unei litere mari,
+
+unei cifre,
+
+unui caracter special.
+
+Testele au acoperit toate aceste cazuri, provocând eșecul codului modificat — astfel, toți mutanții au fost omorâți.
+
+✅ Concluzie
+Rata de omorâre a mutanților: 100%
+
+Testele unitare sunt robuste și validează corect toate cerințele funcționale ale validatorului.
+
+Acest proces asigură încredere în calitatea și rezistența codului.
+
+
 
 7. Utilizarea AI în dezvoltare
 
