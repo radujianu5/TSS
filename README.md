@@ -123,7 +123,7 @@ Testele unitare sunt robuste și validează corect toate cerințele funcționale
 
 Acest proces asigură încredere în calitatea și rezistența codului.
 
-
+![Screenshot 2025-06-14 142243](https://github.com/user-attachments/assets/7f7486b5-c859-4ac1-853f-e2af4ac6e869)
 
 7. Utilizarea AI în dezvoltare
 
@@ -162,6 +162,7 @@ Stryker.NET – https://stryker-mutator.io/
 Microsoft Docs .NET – https://docs.microsoft.com/en-us/dotnet/
 
 OpenAI ChatGPT – https://chat.openai.com/
+
 
 
 
