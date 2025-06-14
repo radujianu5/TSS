@@ -47,6 +47,12 @@ care returnează un mesaj specific pentru fiecare situație detectată (ex: „P
 Cum funcționează:
 
 ![image](https://github.com/user-attachments/assets/db7b6453-9606-4610-9dea-415b1377e530)
+![image](https://github.com/user-attachments/assets/461d3e1a-7928-4857-8155-a8288279f8e6)
+![image](https://github.com/user-attachments/assets/719d2972-6fc8-41ea-a8f2-bdc691714e12)
+![image](https://github.com/user-attachments/assets/21496439-46df-4fee-9e73-8e70c701a738)
+![image](https://github.com/user-attachments/assets/a22febc3-4aa6-4475-bdce-3cf8ef3ec209)
+![image](https://github.com/user-attachments/assets/24788d50-32f9-437d-bf09-47f4164a4dde)
+
 
 
 5. Testare unitară
