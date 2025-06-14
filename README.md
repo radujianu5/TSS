@@ -1,4 +1,6 @@
-﻿1. Descrierea proiectului
+Proiect de testare - Generator de parole ]n C#
+ 
+ 1. Descrierea proiectului
 
 Proiectul PasswordManager este o aplicație simplă în C# care validează parole conform unor reguli stricte de securitate.
 Aplicația include o clasă PasswordValidator ce oferă funcționalitatea principală de validare a parolei, verificând următoarele condiții:
@@ -23,7 +25,7 @@ IDE: Visual Studio 2022
 
 Framework testare unitară: xUnit
 
-Tool de testare prin mutații: Stryker.NET (versiune X.X.X)
+Tool de testare prin mutații: Stryker.NET (versiune 4.7.0)
 
 Sistem de operare: Windows 10/11
 
