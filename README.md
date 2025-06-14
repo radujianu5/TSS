@@ -1,4 +1,4 @@
-Proiect de testare - Generator de parole în C#
+Proiect de testare - Validator de parole în C#
  
  1. Descrierea proiectului
 
