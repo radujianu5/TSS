@@ -25,7 +25,7 @@ IDE: Visual Studio 2022
 
 Framework testare unitară: xUnit
 
-Tool de testare prin mutații: Stryker.NET (versiune 4.7.0)
+Tool de testare prin mutații: Stryker.NET (versiune 4.6.0)
 
 Sistem de operare: Windows 10/11
 
